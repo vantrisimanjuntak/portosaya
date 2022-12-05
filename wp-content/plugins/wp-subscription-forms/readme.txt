@@ -3,9 +3,9 @@ Contributors: wpshuffle
 Donate link: http://wpshuffle.com/
 Tags: subscribe, subscription, subscription form plugin, form, subscription forms
 Requires at least: 4.9
-Tested up to: 6.0
-Requires PHP: 5.2.4
-Stable tag: 1.1.6
+Tested up to: 6.1
+Requires PHP: 7.0.0
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,9 @@ No you won't need to design the forms because our plugin already have 10 beautif
 9. Subscribers List Page
 
 == Changelog ==
+= 1.1.7 = 
+* WP 6.1 compatibility check
+
 = 1.1.6 = 
 * Added Contact us section for support assistance
 

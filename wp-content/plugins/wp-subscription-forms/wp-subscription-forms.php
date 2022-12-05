@@ -5,7 +5,7 @@ defined('ABSPATH') or die('No script kiddies please!');
   Plugin Name: WP Subscription Forms
   Plugin URI:  https://wpshuffle.com/wp-subscription-forms
   Description: A simple plugin to create subscription forms and use it to collect subscribers from site.
-  Version:     1.1.6
+  Version:     1.1.7
   Author:      WP Shuffle
   Author URI:  http://wpshuffle.com
   Domain Path: /languages
@@ -32,7 +32,7 @@ if (!class_exists('WPSF_Class')) {
         function define_constants() {
 
             global $wpdb;
-            defined('WPSF_VERSION') or define('WPSF_VERSION', '1.1.6'); // Plugin's active version
+            defined('WPSF_VERSION') or define('WPSF_VERSION', '1.1.7'); // Plugin's active version
             defined('WPSF_PATH') or define('WPSF_PATH', plugin_dir_path(__FILE__)); // plugin's absolute path
             defined('WPSF_URL') or define('WPSF_URL', plugin_dir_url(__FILE__)); // plugin's absolute path
             defined('WPSF_IMG_DIR') or define('WPSF_IMG_DIR', plugin_dir_url(__FILE__) . 'images'); // plugin's image directory URL
