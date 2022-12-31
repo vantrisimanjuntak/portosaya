@@ -1,0 +1,9 @@
+2022-12-31T07:52:20+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\laragon\www\portosaya\wp-content\plugins\wp-rocket\inc\Dependencies\ActionScheduler\classes\data-stores\ActionScheduler_DBStore.php:812
+Stack trace:
+#0 C:\laragon\www\portosaya\wp-content\plugins\wp-rocket\inc\Dependencies\ActionScheduler\classes\data-stores\ActionScheduler_DBStore.php(726): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\laragon\www\portosaya\wp-content\plugins\wp-rocket\inc\Dependencies\ActionScheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\laragon\www\portosaya\wp-content\plugins\wp-rocket\inc\Dependencies\ActionScheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\laragon\www\portosaya\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\laragon\www\portosaya\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\laragon\www\port in C:\laragon\www\portosaya\wp-content\plugins\wp-rocket\inc\Dependencies\ActionScheduler\classes\data-stores\ActionScheduler_DBStore.php on line 812
+
